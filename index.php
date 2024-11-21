@@ -28,15 +28,15 @@ function vincentyGreatCircleDistance(
 }
 
 $download_servers = array(	0 => array(	'hostname'  => "snapshots.btcpay.tech",
-						                            'longitude' => null,
-						                            'latitude'  => null,
-						                            'city'      => null,
-						                            'distance'  => null),
-			                    	1 => array(	'hostname'  => "vienna.btcpay.host",
-                                        'longitude' => null,
-                                        'latitude'  => null,
-       						                      'city'      => null,
-						                            'distance'  => null)
+						'longitude' => null,
+						'latitude'  => null,
+						'city'      => null,
+						'distance'  => null),
+				1 => array(	'hostname'  => "vienna.btcpay.host",
+						'longitude' => null,
+						'latitude'  => null,
+						'city'      => null,
+						'distance'  => null)
                           );
 
 require_once( __DIR__ . "/maxmind/geoip2.phar");
